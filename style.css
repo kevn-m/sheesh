@@ -1,3 +1,7 @@
+.main {
+  height: 50%;
+}
+
 body {
   background-color: #393e46;
   font-family: 'Montserrat', sans-serif;
@@ -31,97 +35,3 @@ a {
   /*text-align: center;
   border-radius: 4px;*/
 }
- @media (max-width: 960px) {
-  /* For a screen < 960px, this CSS will be read */
-  .container {
-    width: 500px;
-    margin: 40px auto;
-  }
-
-}
-@media (max-width: 720px) {
-  /* For a screen < 720px, this CSS will be read */
-  .container {
-    width: 500px;
-    margin: 40px auto;
-  }
-}
-@media (max-width: 540px) {
-  /* For a screen < 540px, this CSS will be read */
-  .container {
-    width: 300px;
-    margin: 40px auto;
-  }
-
-  .list-inline {
-  padding: 0px;
-  font-size: 10px;
-  }
-/*  .list-inline > li {
-    display: inline-block;
-    padding: 0px 20px;
-    list-style: none;
-    font-size: 20px;
-    width: 0px auto;
-    margin: 0px auto;
-  }*/
-}
-.card {
-  background-color: white;
-  padding: 40px;
-  box-shadow: 0px 10px 30px rgb(0 0 0/ 10%);
-  border-radius: 4px;
-  margin: 20px auto;
-  text-align: center;
-}
-.img-circle {
-  display: inline;
-  margin: 0 auto;
-  margin-left: 0%;
-  height: 100%;
-  width: auto;
-}
-.image-cropper {
-  width: 100px;
-  height: 100px;
-  position: center;
-  overflow: hidden;
-  border-radius: 50%;
-  margin: 0px auto;
-  /*text-align: center;*/
-}
-.btn-blue {
-  background-color: #00adb5;
-  border-radius: 4px;
-  color: white;
-  padding: 10px 20px;
-  margin: 10px 20px;
-}
-.btn-blue:hover {
-  background-color: #aad8d3;
-  transition-delay: 0.1s;
-}
-.list-inline {
-  padding: 0px;
-}
-.list-inline > li {
-  display: inline-block;
-  padding: 0px 20px;
-  list-style: none;
-  font-size: 36px;
-  width: 0px auto;
-  margin: 0px auto;
-  color: #00adb5;
-}
-
-.fab:hover {
- color: #aad8d3;
-}
-
-#introduction {
-  margin-bottom: 40px;
- }
-
- #intro-paragraph {
-  padding-bottom: 10px;
- }
